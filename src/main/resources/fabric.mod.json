@@ -3,7 +3,7 @@
   "id": "fp",
   "version": "${version}",
 
-  "name": "${archives_base_name}",
+  "name": "Test",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "HenriES2022",
@@ -14,13 +14,13 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "GNU",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.henries2022.factorymod.ExampleMod"
+      "factorymod.ExampleMod"
     ]
   },
   "mixins": [
