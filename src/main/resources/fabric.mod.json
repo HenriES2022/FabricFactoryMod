@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fp",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "${archives_base_name}",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "HenriES2022",
+    "YouAreMyTrap"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.henries2022.factorymod.ExampleMod"
     ]
   },
   "mixins": [
@@ -27,7 +28,7 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.6",
+    "fabricloader": ">=0.14.8",
     "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
